@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Signup"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:id="@+id/Signup">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:orientation="vertical"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/circle_background">
+
+        <ImageView
+            android:id="@+id/logosignup"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:src="@drawable/logo"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/applogo" />
+        <EditText
+            android:id="@+id/etNamesu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:hint="@string/enter_your_name"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/etEMailsu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:hint="@string/enter_your_email"
+            android:minHeight="48dp" />
+        <EditText
+            android:id="@+id/etUsernamesu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:hint="@string/enter_your_username"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/etphonenumbersu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:hint="@string/enter_your_number"
+            android:minHeight="48dp" />
+        <EditText
+            android:id="@+id/etPasswordsu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:hint="@string/enter_your_password"
+            android:minHeight="48dp" />
+        <EditText
+            android:id="@+id/etBiosu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:hint="@string/enter_your_bio"
+            android:minHeight="48dp" />
+        <Button
+            android:id="@+id/btsignup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/signup"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

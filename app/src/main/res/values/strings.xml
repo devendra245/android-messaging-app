@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">My activity</string>
+    <string name="tab_layout_description">tab layout description</string>
+    <string name="search">Search</string>
+    <string name="profile">Profile</string>
+    <string name="credits">Credits</string>
+    <string name="logout">Logout</string>
+    <string name="splashimage">Splashimage</string>
+    <string name="app_logo">App logo</string>
+    <string name="enter_your_email">Enter Your Email</string>
+    <string name="enter_your_password">Enter Your Password</string>
+    <string name="signin">Sign In</string>
+    <string name="if_you_are_new_user_click_here">New User Click here</string>
+    <string name="signup">Sign Up</string>
+    <string name="enter_your_username">Enter Your Username</string>
+    <string name="applogo">Applogo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="helloworld">Hello world</string>
+    <string name="edit_profile_picture">Edit Profilr Picture</string>
+    <string name="name">Name</string>
+    <string name="username">UserName</string>
+    <string name="phone_numberr">Phone Number</string>
+    <string name="bio">Bio</string>
+    <string name="update">Update</string>
+    <string name="save">Save</string>
+    <string name="enter_your_name">Enter your Name</string>
+    <string name="enter_your_bio">Enter Your Bio</string>
+    <string name="enter_your_number">Enter Your Number</string>
+    <string name="gotousers">gotousers</string>
+    <string name="users">Users</string>
+    <string name="email">Email</string>
+    <string name="add_friend">Add Friend</string>
+    <string name="Friends">Friends</string>
+    <string name="type_your_message">Type your message</string>
+    <string name="send">Send</string>
+    <string name="recivername">reciverName</string>
+    <string name="receiver_phone_number">Reciever phonenumber</string>
+</resources>
